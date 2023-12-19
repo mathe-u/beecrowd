@@ -7,7 +7,7 @@ void main() {
     if (n == null) {
       break;
     }
-    List<String> d = stdin.readLineSync().split(" ");
+    List<String> d = stdin.readLineSync()!.split(" ");
     int h = int.parse(d[2]);
     double x = sqrt(int.parse(d[0]) * int.parse(d[0]) + int.parse(d[1]) * int.parse(d[1]));
 
